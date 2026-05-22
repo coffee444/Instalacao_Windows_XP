@@ -25,7 +25,7 @@ Solucionar travamentos comuns do VirtualBox ao lidar com sistemas legados e miti
 ### ❓ [QUESTÃO 4]
 Se mantivéssemos o adaptador de rede da máquina virtual do Windows XP configurado no modo "Placa em modo Bridge (Bridged Adapter)" conectada à rede Wi-Fi/cabeada pública da instituição, quais seriam as consequências imediatas em termos de segurança cibernética para o laboratório e para a VM?
 
-**Sua Resposta:**
+**Sua Resposta:** Se o Windows XP ficasse em modo Bridge, ele entraria direto na rede da instituição como se fosse um computador normal. Como o XP é muito antigo e cheio de falhas de segurança, ele poderia pegar vírus, sofrer invasões e até colocar outros computadores da rede em risco. Além disso, outras pessoas na mesma rede poderiam tentar acessar a VM. Por isso, no VirtualBox é mais seguro usar NAT ou Rede Interna.
 > 
 
 ---
